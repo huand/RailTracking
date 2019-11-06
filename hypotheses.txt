@@ -1,2 +1,17 @@
 Hypotheses:
 
+Camera defines global origin
+golbal x = forward
+global y = Left
+global z = up
+
+camera x = right of frame
+camera y = down
+camera z = forward
+
+Construction of rail:
+Left/Right rails are independant with their own vector of nodes.
+Gauge is inforced with additional distance constraints while solving
+
+Consequence:
+free 3d rail. no computational singularities (euler/xyztheta..)

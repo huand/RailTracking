@@ -1,3 +1,9 @@
 {
-    "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools"
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c11",
+    "python.pythonPath": "/bin/python3",
+    "files.associations": {
+        "dense": "cpp",
+        "core": "cpp"
+    }
 }
